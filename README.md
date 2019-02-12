@@ -1,1 +1,1 @@
-"# election-bot" 
+# election-bot
