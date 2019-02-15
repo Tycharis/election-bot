@@ -9,13 +9,9 @@ import discord4j.store.jdk.JdkStoreService;
 
 import edu.kstate.electionbot.command.ElectionBotCommand;
 import edu.kstate.electionbot.command.ElectionBotCommandHandler;
-
 import edu.kstate.electionbot.command.HelpCommand;
-import reactor.core.publisher.Mono;
-import reactor.util.Loggers;
 
-import java.io.IOException;
-import java.nio.file.Paths;
+import reactor.core.publisher.Mono;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,11 +19,7 @@ public class ElectionBot {
     private final BotConfig config;
 
     public static void main(String[] args) {
-        try {
-            new ElectionBot(BotConfig.fromJson(Paths.get(args[0]))).start().block();
-        } catch (IOException e) {
-            Loggers.getLogger(Logger.class).error("Error starting bot", e);
-        }
+        new ElectionBot(new BotConfig()).start().block();
     }
 
     private ElectionBot(BotConfig config) {

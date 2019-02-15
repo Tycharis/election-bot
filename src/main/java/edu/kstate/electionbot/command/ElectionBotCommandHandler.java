@@ -7,15 +7,15 @@ import edu.kstate.electionbot.command.api.CommandHandler;
 
 import reactor.core.publisher.Mono;
 
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
 
 public class ElectionBotCommandHandler extends CommandHandler<ElectionBotCommand> {
     private final String prefix;
-    private final Set<Long> allowedGuilds;
+    private final ArrayList<Long> allowedGuilds;
 
-    public ElectionBotCommandHandler(Map<String, ElectionBotCommand> commands, String prefix, Set<Long> allowedGuilds) {
+    public ElectionBotCommandHandler(Map<String, ElectionBotCommand> commands, String prefix, ArrayList<Long> allowedGuilds) {
         super(commands);
         this.prefix = prefix;
         this.allowedGuilds = allowedGuilds;
