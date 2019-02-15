@@ -10,6 +10,7 @@ import discord4j.store.jdk.JdkStoreService;
 import edu.kstate.electionbot.command.ElectionBotCommand;
 import edu.kstate.electionbot.command.ElectionBotCommandHandler;
 
+import edu.kstate.electionbot.command.HelpCommand;
 import reactor.core.publisher.Mono;
 import reactor.util.Loggers;
 
@@ -39,7 +40,8 @@ public class ElectionBot {
                 .build();
 
         Map<String, ElectionBotCommand> commands = new HashMap<>(3);
-        //commands.put("help", new HelpCommand(commands)); TODO help command
+        //TODO other commands go BEFORE help
+        commands.put("help", new HelpCommand(commands));
 
         ElectionBotCommandHandler commandHandler = new ElectionBotCommandHandler(commands, config.getPrefix(),
                 config.getAllowedGuilds());
