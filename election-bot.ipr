@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="edu.k-state.election-bot.main:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/edu_k_state_election_bot_main_jar</output-path>
+      <root id="archive" name="edu.k-state.election-bot.main.jar">
+        <element id="module-output" name="edu.k-state.election-bot.main" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.32.Final/3e0114715cb125a12db8d982b2208e552a91256d/netty-resolver-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/stores-common/3.0.0.M2/3b61133db66199f402f6c6265d8d91b9e9395765/stores-common-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.32.Final/9261e2930ab30681230a1192878dc2d17525350d/netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.8.4.RELEASE/35688dbec77cd6b91e62b63dc3c2c18e67d22721/reactor-netty-0.8.4.RELEASE.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.austinv11.servicer/Servicer/1.0.0/55e6948826f95144c65f8b8570f6ca1b64df766a/Servicer-1.0.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/discord4j-rest/3.0.0.M2/d9ae35435d8033d36680da86e6b6bbc7bee97a86/discord4j-rest-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/discord4j-core/3.0.0.M2/f706db1b571d671d12e219e275fbe498696cc412/discord4j-core-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.32.Final/58b621246262127b97a871b88c09374c8c324cb7/netty-handler-proxy-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.32.Final/8f32bd79c5a16f014a4372ed979dc62b39ede33a/netty-codec-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.32.Final/e95de4f762606f492328e180c8ad5438565a5e3b/netty-common-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/discord4j-voice/3.0.0.M2/99e036a47acd9f9df4b642d05adad60977cd4fe/discord4j-voice-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/stores-api/3.0.0.M2/b073c6164ee14c3fd6187136531291954d9adea4/stores-api-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/f5a654e4675769c716e5b387830d19b501ca191/jackson-core-2.9.8.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.32.Final/d5e5a8ff9c2bc7d91ddccc536a5aca1a4355bd8b/netty-transport-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.32.Final/46ede57693788181b2cafddc3a5967ed2f621c8/netty-buffer-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/11283f21cc480aa86c4df7a0a3243ec508372ed2/jackson-databind-2.9.8.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.8/bcd02aa9195390e23747ed40bf76be869ad3a2fb/jackson-datatype-jdk8-2.9.8.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/discord4j-common/3.0.0.M2/87d4ed7aee5ef80ca7052fe0e1cec4a5b78e0d/discord4j-common-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.32.Final/3d2aea6a2873b0a6503645dc296bc0ce6d01a25a/netty-transport-native-unix-common-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.addons/reactor-extra/3.2.2.RELEASE/bd6d82b19cd42c0424fb469764890e3ad75afe47/reactor-extra-3.2.2.RELEASE.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/stores-jdk/3.0.0.M2/e5d83e0fd7c0b38ae5d59ba86c29691b8713158e/stores-jdk-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.32.Final/b4e3fa13f219df14a9455cc2111f133374428be0/netty-handler-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.2.5.RELEASE/25a30adae5e2996b2a6fcd43280971151507f2f3/reactor-core-3.2.5.RELEASE.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.32.Final/d14eb053a1f96d3330ec48e77d489118d547557a/netty-codec-http2-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.32.Final/b9218adba7353ad5a75fcb639e4755d64bd6ddf/netty-codec-http-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/discord4j-gateway/3.0.0.M2/39d8f96d31c6a0d348c413a05ae4fcdea4a1135c/discord4j-gateway-3.0.0.M2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.32.Final/b1e83cb772f842839dbeebd9a1f053da98bf56d2/netty-codec-socks-4.1.32.Final.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.discord4j/simple-fsm/1.0.1/58cc3d3c4d25823eecb174a8e4807ba83299f36a/simple-fsm-1.0.1.jar" path-in-jar="/" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/default.properties" />
+      </root>
+    </artifact>
+  </component>
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="edu.k-state.election-bot.main" target="1.8" />

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Main-Class: edu.kstate.electionbot.ElectionBot
+
+Name: edu/kstate/electionbot
+Specification-Title: Election Bot
+Specification-Version: 1.0-SNAPSHOT
+Specification-Vendor: Esports Club at Kansas State University
+Implementation-Title: edu.kstate.electionbot
+Implementation-Version: build1
+Implementation-Vendor: Esports Club at Kansas State University
+
