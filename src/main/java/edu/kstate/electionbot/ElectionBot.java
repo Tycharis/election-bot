@@ -4,9 +4,11 @@ import ch.qos.logback.classic.Logger;
 
 import discord4j.core.DiscordClient;
 import discord4j.core.DiscordClientBuilder;
+import discord4j.core.event.domain.guild.EmojisUpdateEvent;
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.store.jdk.JdkStoreService;
 
+import edu.kstate.electionbot.command.ElectCommand;
 import edu.kstate.electionbot.command.ElectionBotCommand;
 import edu.kstate.electionbot.command.ElectionBotCommandHandler;
 import edu.kstate.electionbot.command.HelpCommand;
@@ -32,6 +34,7 @@ public class ElectionBot {
                 .build();
 
         Map<String, ElectionBotCommand> commands = new HashMap<>(3);
+        commands.put("elect", new ElectCommand());
         //TODO other commands go BEFORE help
         commands.put("help", new HelpCommand(commands));
 
